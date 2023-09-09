@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Speede';
+  src: url(../assets/fonts/Speedee-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Speeded-bold';
+  src: url(../assets/fonts/Speedee-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: 'Speede';
+  color: rgb(41, 41, 41);
+}

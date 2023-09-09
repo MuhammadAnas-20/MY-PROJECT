@@ -1,0 +1,128 @@
+header {
+  height: 130px;
+
+  display: flex;
+  justify-content: center;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(237, 237, 237);
+}
+
+.header-container {
+  height: 115px;
+  width: 1170px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.mclogo {
+  display: inline-block;
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+nav img {
+  height: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+
+.secondary-nav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-nav a{
+  font-size: 14px;
+}
+
+.secondary-left {
+  width: 304px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language-button {
+  display: flex;
+  align-items: center;
+  width: 75px;
+}
+
+.lang-arrow {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.signup {
+  display: inline-block;
+}
+
+.secondary-right {
+  width: 410px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  width: 60px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+
+.location a {
+  text-decoration: underline;
+  color: rgb(0, 107, 174);
+}
+
+.order-button {
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(255, 188, 13);
+  cursor: pointer;
+  position: relative;
+}
+
+.primary-nav {
+  width: 800px;
+  height: 48px;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary-nav a {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.our-menu-button {
+  width: 120px;
+}
+
+.our-arrow{
+  display: inline-block;
+}
